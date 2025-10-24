@@ -1,5 +1,21 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Environment Setup
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```bash
+# MongoDB Connection String
+MONGO_DB_URL=mongodb://127.0.0.1:27017/dashboardApp
+
+# For MongoDB Atlas (cloud), use format like:
+# MONGO_DB_URL=mongodb+srv://username:password@cluster.mongodb.net/dashboardApp?retryWrites=true&w=majority
+
+# Facebook/Meta Integration (for webhook)
+FB_VERIFY_TOKEN=your_facebook_verify_token
+FB_ACCESS_TOKEN=your_facebook_access_token
+```
+
 ## Getting Started
 
 First, run the development server:
