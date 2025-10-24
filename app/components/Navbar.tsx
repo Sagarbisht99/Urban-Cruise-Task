@@ -14,13 +14,13 @@ export default function Navbar() {
 
         {/* Center Section: Navigation Links */}
         <div className="hidden md:flex space-x-8"> {/* Hide on small screens, show on medium and up, add spacing */}
-          <Link href="/how-it-works" className="text-white  transition-colors duration-200">
+          <Link href="/" className="text-white  transition-colors duration-200">
             How it works
           </Link>
           <Link href="/dashboard" className="text-white  transition-colors duration-200">
             Dashboard
           </Link>
-          <Link href="/configurator" className="text-white  transition-colors duration-200">
+          <Link href="/" className="text-white  transition-colors duration-200">
             Configurator
           </Link>
         </div>
